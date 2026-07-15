@@ -12,7 +12,8 @@ export default function NavBar(){
             lineHeight:"2.8",
             background:"rgb(15, 15, 15)",
             borderRadius:"12px",
-            fontSize:"16px"
+            fontSize:"16px",
+            display:"flex"
         }}
         >
          <nav>
