@@ -3,10 +3,22 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <div>
-      <h3 class="flex-1">Hello friends,</h3>
+    <div
+    style={{
+         fontSize:"20px",
+        display:"flex",
+        padding:"20px",
+
+    }}
+    >
+      <p
+      style={{
+        display:"flex",
+        padding:"20px"
+      }}
+      >Hello Friends,</p>
          <img src="" alt="" />
-         <h1>Asmit Biswas</h1>
+         <p>I'm Asmit Biswas</p>
       {/* <NavBar/> */}
     </div>
   );
