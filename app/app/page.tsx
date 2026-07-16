@@ -1,4 +1,5 @@
 import Image from "next/image";
+import NavBar from "./component/navbar";
 
 
 export default function Home() {
@@ -8,12 +9,12 @@ export default function Home() {
          fontSize:"20px",
         // display:"flex",
         padding:"5px",
-        marginTop:"2rem"
+        // marginTop:"2rem"
         
     }}
     
     >
-
+      <NavBar/>
       <p
       style={{
         display:"flex",
@@ -22,7 +23,8 @@ export default function Home() {
         fontSize:"14px",
         maxWidth:"900px",
         margin:"0 auto",
-        color:"#555"
+        color:"#555",
+        marginTop:"20px"
       }}
       >Hello Friends,👋</p>
          {/* <img src="" alt="" /> */}
