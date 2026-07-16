@@ -6,8 +6,8 @@ export default function NavBar(){
         style={{
             // display:"flex",
             // border:"1px solid #151515",
-            width:"200px",
-            height:"930px",
+            width:"10vh",
+            height:"100px",
             padding:"20px",
             lineHeight:"2.8",
             background:"rgb(15, 15, 15)",
