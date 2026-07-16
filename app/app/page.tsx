@@ -14,7 +14,7 @@ export default function Home() {
     }}
     
     >
-      <NavBar/>
+      {/* <NavBar/> */}
       <p
       style={{
         display:"flex",

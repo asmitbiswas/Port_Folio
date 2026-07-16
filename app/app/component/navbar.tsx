@@ -14,6 +14,7 @@ export default function NavBar(){
             borderRadius:"12px",
             fontSize:"16px",
             display:"flex",
+            // border
         }}
         >
             <h1
@@ -24,6 +25,10 @@ export default function NavBar(){
                 fontFamily:"poppins"
             }}
             >Asmit Biswas</h1>
+            <img style={{
+                maxWidth:"2000px",
+                margin:"0 auto"
+            }}src="andibreit-tiger-2535888.jpg" alt="Asmit Biswas" />
         </div>
     )
 }
