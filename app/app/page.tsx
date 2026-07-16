@@ -9,8 +9,8 @@ export default function Home() {
          fontSize:"20px",
         // display:"flex",
         padding:"5px",
-        // marginTop:"2rem"
-        
+        marginTop:"2rem",
+        lineHeight:"1.8"
     }}
     
     >
@@ -21,9 +21,9 @@ export default function Home() {
         // padding:"20px",
         // width:"900px",
         fontSize:"14px",
-        maxWidth:"900px",
+        maxWidth:"1279px",
         margin:"0 auto",
-        color:"#555",
+        color:"#666",
         marginTop:"20px"
       }}
       >Hello Friends,👋</p>
@@ -31,7 +31,7 @@ export default function Home() {
          <h1 
          style={{
           font:"icon",
-             maxWidth:"900px",
+             maxWidth:"1279px",
         margin:"0 auto",
         fontSize:"40px"
          }}
@@ -40,10 +40,12 @@ export default function Home() {
          style={{
           display:"flex",
           // justifyContent:"center"
-          maxWidth:"900px",
-          margin:"0 auto"
+          maxWidth:"1279px",
+          margin:"0 auto",
+          fontSize:"14px",
+          color:"#666"
          }}
-         >Frontend-designer</p>
+         >Frontend-designer | School Student</p>
          {/* <p
             style={{
         display:"flex",
@@ -53,7 +55,28 @@ export default function Home() {
               margin:"0 auto"
       }}
          >I'm Asmit Biswas</p> */}
-  
+        <h2
+        style={{
+          padding:"10px",
+          maxWidth:"1300px",
+          margin:"0 auto",
+          color:"rgb(124, 124, 124)",
+          display:'flex'
+        }}
+        >
+          About me  .
+        </h2>
+        {/* <p style={{color:"purple", display:"flex"}}>.</p> */}
+       <p
+       style={{
+        maxWidth:"1279px",
+        margin:"0 auto",
+        fontSize:"16px",
+        color:"rgb(124, 124, 124)"
+       }}
+       >
+        I'm a teen school student and a Web designer. I've 3+ years of experience in web-dev. I can also do simple backend too..  I contribute to Github, built DevVault and worked in JISCE Gaming Club web 👾. Also i worked in frameworks like React, Next etc. I am intrested in Music, Gaming, Coding and Badminton sports.
+       </p>
     </div>
   );
 }
