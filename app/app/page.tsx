@@ -1,5 +1,5 @@
 import Image from "next/image";
-import NavBar from "./component/navbar";
+
 
 export default function Home() {
   return (
@@ -9,16 +9,16 @@ export default function Home() {
         // display:"flex",
         padding:"5px",
         marginTop:"2rem"
-
+        
     }}
     
     >
-          <NavBar/>
+
       <p
       style={{
         display:"flex",
-        padding:"20px",
-        width:"900px",
+        // padding:"20px",
+        // width:"900px",
         fontSize:"14px",
         maxWidth:"900px",
         margin:"0 auto",
@@ -34,6 +34,14 @@ export default function Home() {
         fontSize:"40px"
          }}
          > I'm Asmit Biswas</h1>
+         <p
+         style={{
+          display:"flex",
+          // justifyContent:"center"
+          maxWidth:"900px",
+          margin:"0 auto"
+         }}
+         >Frontend-designer</p>
          {/* <p
             style={{
         display:"flex",
