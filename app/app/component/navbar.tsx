@@ -4,31 +4,17 @@ export default function NavBar(){
     return(
         <div
         style={{
-            // display:"flex",
-            // border:"1px solid #151515",
-            width:"205vh",
-            height:"90px",
-            padding:"5px",
-            lineHeight:"2.8",
-            background:"rgb(15, 15, 15)",
-            borderRadius:"12px",
-            fontSize:"16px",
+            // position:"fixed",
             display:"flex",
-            // border
+            border:"1px solid #000",
+            // background:"#000",
+            maxWidth:"200rem",
+            minHeight:"100px",
+            padding:"14px"
         }}
         >
-            <h1
-            style={{
-                fontSize:"20px",
-                display:"flex",
-                padding:"10px",
-                fontFamily:"poppins"
-            }}
-            >Asmit Biswas</h1>
-            <img style={{
-                maxWidth:"2000px",
-                margin:"0 auto"
-            }}src="andibreit-tiger-2535888.jpg" alt="Asmit Biswas" />
+            <h1>Asmit_Coder</h1>
+            <img src="home-icon.svg" alt="" />
         </div>
     )
 }

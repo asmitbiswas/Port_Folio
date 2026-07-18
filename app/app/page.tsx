@@ -1,7 +1,7 @@
 import Image from "next/image";
 import NavBar from "./component/navbar";
 import Link from "next/link";
-
+import "./Style.css";
 
 export default function Home() {
   return (
@@ -10,14 +10,13 @@ export default function Home() {
         fontSize: "20px",
         // display:"flex",
         padding: "5px",
-        marginTop: "2rem",
+        // marginTop: "2rem",
         lineHeight: "1.8",
         color:"white",
       }}
 
     >
-      {/* <NavBar/> */}
-     
-    </div>
+      <NavBar/>
+      </div>
   );
 }
