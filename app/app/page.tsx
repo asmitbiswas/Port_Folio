@@ -26,7 +26,9 @@ export default function Home() {
         // marginTop: "2rem",
         // lineHeight: "1.8",
         color:"Black",
-
+        border:"1px solid #666565",
+        maxWidth:"none",
+        maxHeight:"none"
       }}
 
     >
@@ -50,6 +52,21 @@ export default function Home() {
       }}
       >AsmitCoder</h1>
       </div>
+      <p
+      style={{
+        padding:"14px",
+        fontSize:"20px"
+      }}
+      >
+        Who Am I ?
+      </p>
+      <p
+        style={{
+        padding:"14px"
+      }}
+      >
+           Hello 
+      </p>
     </div>
   
   );
