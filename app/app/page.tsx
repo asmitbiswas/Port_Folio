@@ -11,7 +11,8 @@ export default function Home() {
         // display:"flex",
         padding: "5px",
         marginTop: "2rem",
-        lineHeight: "1.8"
+        lineHeight: "1.8",
+        color:"white",
       }}
 
     >
@@ -78,55 +79,7 @@ export default function Home() {
       >
         I'm a teen school student and a Web designer. I've 1+ years of experience in web-dev. I can also do simple backend too..  I contribute to Github, built DevVault and worked in JISCE Gaming Club web 👾. Also i worked in frameworks like React, Next etc. I am intrested in Music, Gaming, Coding and Badminton sports.
       </p>
-      <h2
-        style={{
-          padding: "10px",
-          maxWidth: "900px",
-          margin: "0 auto",
-          color: "rgb(124, 124, 124)",
-          // display: "flex"
-        }}
-      >
-        Contact.
-        With me,
-      </h2>
-      <div
-        style={{
-          display: "flex",
-          maxWidth: "900px",
-          margin: "0 auto",
-          padding: "10px",
-          wordSpacing:"5px"
-        }}
-      >
-      <div
-      style={{
-        display:"flex",
-        // background:"#000000",
-        border:"1px solid rgb(55, 56, 56)",
-        borderRadius:"8px",
-        background:"#777",
-        padding:"12px"
-      }}
-      >
-        <img style={{
-          width:"60px",
-          height:"60px",
-          borderRadius:"25px"
-        }} src="github-icon.svg" alt="" />
-         <p style={{color:"#777"}}>a</p> : AsmitBiswas  <p style={{color:"#777"}}>a</p>
-             <a
-        style={{
-          color: "rgb(0, 0, 0)",
-          wordSpacing: "5px",
-          // maxWidth: "900px",
-          // margin: "0 auto",
-        }}
-        href="https://github.com/asmitbiswas"> : Github Profile</a>
-      </div>
-        
-      </div>
- 
+      
     </div>
   );
 }

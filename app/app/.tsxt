@@ -1,0 +1,85 @@
+    <h2
+        style={{
+          padding: "10px",
+          maxWidth: "900px",
+          margin: "0 auto",
+          color: "rgb(124, 124, 124)",
+          // display: "flex"
+        }}
+      >
+        Contact.
+        With me,
+      </h2>
+ 
+ <div
+        style={{
+          display: "flex",
+          maxWidth: "900px",
+          margin: "0 auto",
+          padding: "10px",
+          // wordSpacing:"5px"
+          // justifyContent:
+        }}
+      >
+        <div
+          style={{
+            display: "flex",
+            // background:"#000000",
+            border: "1px solid rgb(55, 56, 56)",
+            borderRadius: "8px",
+            background: "#333",
+            padding: "12px"
+          }}
+        >
+          <img style={{
+            width: "60px",
+            height: "60px",
+            borderRadius: "25px"
+          }} src="github-icon.svg" alt="" />
+          <p style={{ color: "#333" }}>a</p> : AsmitBiswas  <p style={{ color: "#333" }}>a</p>
+          <a
+            style={{
+              color: "rgb(0, 0, 0)",
+              wordSpacing: "5px",
+              // maxWidth: "900px",
+              // margin: "0 auto",
+            }}
+            href="https://github.com/asmitbiswas"> : Github Profile</a>
+        </div>
+      </div>
+       <div
+        style={{
+          display: "flex",
+          maxWidth: "900px",
+          margin: "0 auto",
+          padding: "10px",
+          // wordSpacing:"5px"
+          // justifyContent:
+        }}
+      >
+        <div
+          style={{
+            display: "flex",
+            // background:"#000000",
+            border: "1px solid rgb(55, 56, 56)",
+            borderRadius: "8px",
+            background: "#333",
+            padding: "12px"
+          }}
+        >
+          <img style={{
+            width: "60px",
+            height: "60px",
+            borderRadius: "25px"
+          }} src="discord-icon.svg" alt="" />
+          <p style={{ color: "#333" }}>a</p> : AsmitBiswas  <p style={{ color: "#333" }}>a</p>
+          <a
+            style={{
+              color: "rgb(0, 0, 0)",
+              wordSpacing: "5px",
+              // maxWidth: "900px",
+              // margin: "0 auto",
+            }}
+            href="https://discord.com/channels/1528011113466171583/1528011116591059157"> : Discord server</a>
+        </div>
+      </div>
