@@ -2,10 +2,12 @@ import Link from "next/link"
 
 export default function NavBar() {
     return (
-      <div
+      <div>
+       <div
       style={{
         maxWidth:"300px",
-        margin:"0 auto"
+        margin:"0 auto",
+        // justifyContent:"end"
       }}
       >
           <div
@@ -79,10 +81,10 @@ export default function NavBar() {
                         margin: "0 auto"
                     }}
             src="notebook.svg" alt="" />
-
             </div>
-
         </div>
+
+      </div> 
       </div>
     )
 }
