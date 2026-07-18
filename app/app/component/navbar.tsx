@@ -11,48 +11,59 @@ export default function NavBar(){
             // maxWidth:"200rem",
             // minHeight:"100px",
             padding:"14px",
-            gap:"none"
+            color:"black"
         }}
         >
             <h1>Asmit_Coder</h1>
             <div
             style={{
                 display:"flex",
-                maxWidth:"2000px",
-                margin:"0 auto"
+                maxWidth:"1px",
+                margin:"0 auto",
+                // lineHeight:"1.8"
             }}
             >
+              
                     <img 
             style={{
                 width:"50px",
                 height:"50px",
                 // display:"flex",
                 // justifyItems:"center",
-                maxWidth:"900px",
-                margin:"0 auto"
+                maxWidth:"2000px",
+                margin:"0 auto",
             }}
             src="home-icon.svg" alt="" />
+              <p style={{
+                    color:"rgb(212 212 212 )"
+                }}>a</p>
             <img
               style={{
                 width:"50px",
                 height:"50px",
                 // display:"flex",
                 // justifyItems:"center",
-                maxWidth:"900px",
+                maxWidth:"2000px",
                 margin:"0 auto"
             }}
             src="envelop.svg" alt="" />
-
+                  <p style={{
+                    color:"rgb(212 212 212 )"
+                }}>a</p>
             <img 
                style={{
                 width:"50px",
                 height:"50px",
                 // display:"flex",
                 // justifyItems:"center",
-                maxWidth:"900px",
+                maxWidth:"2000px",
                 margin:"0 auto"
             }}
             src="hammer.svg" alt="" />
+              <p style={{
+                    color:"rgb(212 212 212 )"
+                }}>a</p>
+
             </div>
 
         </div>
