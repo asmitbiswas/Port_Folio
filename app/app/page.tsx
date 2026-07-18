@@ -6,23 +6,33 @@ import "./Style.css";
 export default function Home() {
   return (
     <div
+>
+      <div
+      style={{
+        marginTop:"1.5rem"
+      }}
+      ></div>
+  <div
       style={{
         fontSize: "20px",
         display:"flex",
         padding: "30px",
         // marginTop: "2rem",
-        lineHeight: "1.8",
+        // lineHeight: "1.8",
         color:"Black",
 
       }}
 
     >
+     
       <div>
         <img 
       style={{
         width:"100px",
         height:"100px",
         borderRadius:"50px",
+        marginTop:"0 auto",
+        // maxWidth:"200px"
       }}
       src="WhatsApp Image 2026-07-18 at 11.00.05 PM.jpeg" alt="" />
       </div>
@@ -33,5 +43,7 @@ export default function Home() {
       }}
       >AsmitCoder</h1>
       </div>
+    </div>
+  
   );
 }
