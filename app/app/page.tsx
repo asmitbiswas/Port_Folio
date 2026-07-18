@@ -6,10 +6,16 @@ import "./Style.css";
 export default function Home() {
   return (
     <div
+    style={{
+    maxWidth:"1000px",
+    margin:"0 auto",
+    border:"1px solid #666565",
+    minHeight:"930px"
+    }}
 >
       <div
       style={{
-        marginTop:"1.5rem"
+        // marginTop:"1.5rem"
       }}
       ></div>
   <div
@@ -33,6 +39,7 @@ export default function Home() {
         borderRadius:"50px",
         marginTop:"0 auto",
         // maxWidth:"200px"
+        marginRight:"16px"
       }}
       src="WhatsApp Image 2026-07-18 at 11.00.05 PM.jpeg" alt="" />
       </div>
