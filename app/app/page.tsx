@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <div
     style={{
-    maxWidth:"1000px",
+    maxWidth:"900px",
     margin:"0 auto",
     // border:"1px solid #666565",
     minHeight:"930px"
@@ -47,11 +47,10 @@ export default function Home() {
       </div>
       <pre
       style={{
-        border:"1px solid rgb(235 245 251",
+        border:"1px solid rgb(235 245 251)",
         borderRadius:"20px",
         padding:"14px",
         background:"rgb(235 245 251)",
-        margin:"25 0"
       }}
       >
         {`
