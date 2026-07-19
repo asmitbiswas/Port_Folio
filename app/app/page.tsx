@@ -9,7 +9,7 @@ export default function Home() {
     style={{
     maxWidth:"1000px",
     margin:"0 auto",
-    border:"1px solid #666565",
+    // border:"1px solid #666565",
     minHeight:"930px"
     }}
 >
@@ -26,7 +26,7 @@ export default function Home() {
         // marginTop: "2rem",
         // lineHeight: "1.8",
         color:"Black",
-        border:"1px solid #666565",
+        // border:"1px solid #666565",
         maxWidth:"none",
         maxHeight:"none"
       }}
@@ -45,28 +45,34 @@ export default function Home() {
       }}
       src="WhatsApp Image 2026-07-18 at 11.00.05 PM.jpeg" alt="" />
       </div>
-      <h1
-          style={{
-        maxWidth:"1px",
-        margin:"0 auto"
-      }}
-      >AsmitCoder</h1>
-      </div>
-      <p
+      <pre
       style={{
+        border:"1px solid rgb(235 245 251",
+        borderRadius:"20px",
         padding:"14px",
-        fontSize:"20px"
+        background:"rgb(235 245 251)",
+        margin:"25 0"
       }}
       >
-        Who Am I ?
-      </p>
-      <p
-        style={{
-        padding:"14px"
-      }}
-      >
-           Hello 
-      </p>
+        {`
+        let developer = {
+        name : " Asmit ",
+        age : " 12 " ,
+        hobbie : " coding &  gaming ",
+        graduation : " None ",
+        
+        whileAlive(){
+        code()
+        sleep()
+        eat()
+        rest()
+        imporveMyself()
+        game()
+        }
+        }
+        `}
+      </pre>
+      </div>
     </div>
   
   );
