@@ -1,6 +1,12 @@
 .SVG{
-    background-image: url("github-commit.svg");
-    background-position: 50%;
+    background-image: url("public/github-commit.svg");
+    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    width: 1000px;
+    height: 200px;
+    display: inline-block;
+    max-width: 900px;
+    margin: 0 auto;
+    opacity: 60%;
 }

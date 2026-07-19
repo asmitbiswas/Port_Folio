@@ -8,7 +8,8 @@ export default function Home() {
     <div
     style={{
       maxWidth:"900px",
-      display:"flex"
+      display:"flex",
+      marginTop:"2rem"
     }}
     >
       <div className="SVG">
