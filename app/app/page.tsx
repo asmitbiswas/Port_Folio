@@ -13,7 +13,9 @@ export default function Home() {
     }}
     >
       <div className="SVG">
-     {/* <img src="github-commit.svg" alt="" /> */}
+     <p>
+      Helo
+     </p>
       </div>
     </div>
 
