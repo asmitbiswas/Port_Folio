@@ -10,7 +10,7 @@ export default function Home() {
     maxWidth:"900px",
     margin:"0 auto",
     fontFamily:"ui-sans-serif",
-    display:"flex"
+    // display:"flex"
   }}
   >
 
@@ -21,7 +21,7 @@ export default function Home() {
     <h1>Asmit Biswas</h1>
 
     <h2>Frontend Developer</h2>
-
+      <img src="github-commit.svg" alt="" />
     <p>
       I enjoy building fast, modern, and responsive websites.
       Currently learning React, Next.js, and TypeScript while
