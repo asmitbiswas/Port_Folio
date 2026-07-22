@@ -21,7 +21,7 @@ export default function Home() {
     <h1>Asmit Biswas</h1>
 
     <h2>Frontend Developer</h2>
-      <img src="github-commit.svg" alt="" />
+      <img src="github-commit.svg" alt="Github contribution Graph"  className="GithubContributionGraph"/>
     <p>
       I enjoy building fast, modern, and responsive websites.
       Currently learning React, Next.js, and TypeScript while

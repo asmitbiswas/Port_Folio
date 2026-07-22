@@ -1,10 +1,8 @@
-.SVG {
-    width: 100vw;
-    height: 100vh;
-    background-image: url("public/github-commit.svg") center center / contain no-repeat;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.GithubContributionGraph{
+  opacity: .12;
+    filter: blur(1px);
+    transform: scale(1.2);
+    
 }
 
 * {
